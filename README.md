@@ -61,7 +61,7 @@ Overall, this code provides a basic framework for OTP verification in a Python a
 - Replace the following line with your phone number to receive the OTP:
 
 ```bash
-  self.client.messages.create(to=["+919833xxxxxx"],from_="+91705xxxxxxx", body=self.n)
+  self.client.messages.create(to=["+919833xxxxxx"],from_="+19705xxxxxxx", body=self.n)
 ```
 - Save the changes and run the .py file.
 ## Usage
