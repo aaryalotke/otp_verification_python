@@ -11,7 +11,7 @@ class otp_verifier(Tk):
         self.resizable(True, True)
         self.n = random.randint(1000, 9999)
         self.client = Client("AC343e7570357ba769847f695f2c89d63a", "a5c5706200923411b3c6bf38c828b277")
-        self.client.messages.create(to=["+919833040673"],
+        self.client.messages.create(to=["+919833xxxxxx"],
                                     from_="+19705985647",
                                     body=self.n)
 
